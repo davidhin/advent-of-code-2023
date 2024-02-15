@@ -14,7 +14,7 @@ fn calibration_value(input_str: &str) -> String {
 }
 
 fn main() -> io::Result<()> {
-    let file = File::open("data/day1.txt")?;
+    let file = File::open("data/day1a.txt")?;
     let reader = BufReader::new(file);
     let mut total: i32 = 0;
 
