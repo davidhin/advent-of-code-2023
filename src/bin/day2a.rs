@@ -27,14 +27,6 @@ impl DieSet {
             blue: *colours.get("blue").unwrap_or(&0),
         }
     }
-
-    fn empty() -> Self {
-        DieSet {
-            red: 0,
-            green: 0,
-            blue: 0,
-        }
-    }
 }
 
 impl Add for DieSet {
